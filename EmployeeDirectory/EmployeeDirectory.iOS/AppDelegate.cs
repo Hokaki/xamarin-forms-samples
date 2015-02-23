@@ -16,6 +16,8 @@ namespace EmployeeDirectory.iOS
 	{
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
+			Xamarin.Calabash.Start ();
+
 			Forms.Init ();
 
 			CopyInfoIntoWorkingFolder ("XamarinDirectory.csv");

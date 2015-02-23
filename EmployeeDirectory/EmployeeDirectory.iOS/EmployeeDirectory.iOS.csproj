@@ -131,6 +131,9 @@
     <Reference Include="Xamarin.Social.iOS">
       <HintPath>..\Components\xamarin.social-1.1.7\lib\ios-unified\Xamarin.Social.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Calabash">
+      <HintPath>..\packages\Xamarin.TestCloud.Agent.0.12.3\lib\Xamarin.iOS10\Calabash.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
@@ -182,6 +185,10 @@
   <ItemGroup>
     <XamarinComponentReference Include="xamarin.social">
       <Version>1.1.7</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="calabash">
+      <Version>12.3</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
   </ItemGroup>
